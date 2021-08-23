@@ -2,7 +2,7 @@
 >[Curso python para principiantes](https://www.youtube.com/watch?v=chPhlsHoEPo "Reproducir video en YouTube")
 
 ## 1. Que es python
-Es un lenguaje de programacion de alto nivel de proposito general. Su sintaxis es muy sencilla, cuenta con una gran variedad de bibliotecas, funciona en diversas plataformas.
+Es un lenguaje de programacion de alto nivel de proposito general interpretado. Su sintaxis es muy sencilla, cuenta con una gran variedad de bibliotecas, funciona en diversas plataformas y considerado como un lenguaje multiparadigma.
 
 **Aplicaciones tipicas que se pueden elaborar**
 
@@ -47,7 +47,7 @@ exit()
 ```
 4. La extencion de un archivo fuente de python es **nombre.py**.
 
-5. Para ejecutar un archivo de pyton
+5. Para ejecutar un archivo de python
 ```
 python3 archivo.py
 ```
