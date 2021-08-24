@@ -30,6 +30,7 @@ Es un lenguaje de programacion de alto nivel de proposito general interpretado. 
 
 En las distribuciones linux ya viene preinstalado python.
 
+---
 ## 3 Lo basico en python
 
 1. Mostrar texto en pantalla:
@@ -51,5 +52,48 @@ exit()
 ```
 python3 archivo.py
 ```
+***Programas elaborados***
+
+[1 HolaMundo](programas/HolaMundo.py)
+
+---
 ## 4 Tipos de datos en python
 
+0. Mostrar el tipo de dato
+```python
+print(type("texto"))
+```
+1. string
+```python
+print("Primer texto")
+print('Segundo texto')
+print("""Tercer texto""")
+print('''Cuarto texto''')
+```
+* concatenar textos
+
+```python
+print("texto 1 " + "texto 2")
+```
+
+2. 
+```python
+
+```
+3. 3
+```python
+
+```
+4. 4
+```python
+
+```
+5. 5
+```python
+
+```
+***programas elaborados***
+
+[dataTypes](programas/datatypes.py)
+
+---
