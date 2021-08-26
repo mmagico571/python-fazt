@@ -14,6 +14,7 @@ print(type([10, 3.14,"Hola",True]))
 print(type((10, 3.14,"Hola",True)))
 print(type({"nombre":"tobias", "aPaterno":"piña", "aMaterno":"posos","edad":5}))
 print(type(None))
+
 # concatenar textos
 print("texto 1 " + "texto 2")
 
