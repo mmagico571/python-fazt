@@ -137,3 +137,9 @@ None
 ---
 ## 5 Variables
 
+***programas elaborados***
+
+[variables](programas/variables.py)
+
+[strings](programas/strings.py)
+
