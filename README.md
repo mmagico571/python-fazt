@@ -12,6 +12,8 @@ Es un lenguaje de programacion de alto nivel de proposito general, es un lenguaj
 * Robotica y Hardware
 * Aplicaciones cientificas
 
+---
+
 ## 2. Instalacion de python
 
 ### En windos
@@ -137,9 +139,72 @@ None
 ---
 ## 5 Variables
 
+### 1 Tipos de variables
+
+
+```python
+variableString = "texto"
+variableDecimal = 10
+variableFlotante = 3.14
+variableLista = [1,2,3]
+variableTupla = ("a","b")
+variableDiccionario = {"numero1":100,"numero2":200}
+variableSinIdentificar = None
+print(variableString)
+print(variableDecimal)
+print(variableFlotante)
+print(variableLista)
+print(variableTupla)
+print(variableDiccionario)
+print(variableSinIdentificar)
+```
+### 2 Reglas de declaracion de variables
+* Python es un lenguaje Case sensitive
+* Los nombres empiezan con minusculas , mayusculas y giones bajos exepto numeros
+
+```python
+Libro = "I Robot"
+libro = "Carbono alterado"
+_libro = "La guerra de los mundos"
+print(Libro)
+print(libro)
+print(_libro)
+```
+### 3 Declaracion de variables en multiples lineas
+
+
+```python
+x, y = 100 , 200
+print(x,y)
+```
+### 4 Constantes
+Las constantes se declaran en mayusculas
+
+```python
+PI = 3.14
+print(PI)
+```
+### 5 Lenguaje dinamico
+Cambio del tipo de dato para una variable en tiempo de ejecucion.
+
+```python
+mi_libro = "Ready Player ONE"
+print(mi_libro)
+mi_libro = 1984
+print(mi_libro)
+```
+
 ***programas elaborados***
 
 [variables](programas/variables.py)
+
+---
+
+## 6 Variables string
+
+
+
+***programas elaborados***
 
 [strings](programas/strings.py)
 
