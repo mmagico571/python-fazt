@@ -4,7 +4,7 @@
 # 1 Obtener todos lo metodos para una variable
 myStr = "Hola Mundo desde python"
     # se utiliza la palabra reservada dir()
-# print(dir(myStr))
+print(dir(myStr))
 
 # 2 convertir todo el texto a mayusculas
 print(myStr.upper())
@@ -19,7 +19,7 @@ print(myStr.swapcase())
 print(myStr.capitalize())
 
 # 6 Remplazar un texto
-print(myStr.replace("Hola","Bye")) 
+print(myStr.replace("Hola","Bye"))
 
 # 7 Metodos encadenados
 print(myStr.replace("Hola","Bye").upper())

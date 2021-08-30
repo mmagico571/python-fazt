@@ -202,9 +202,84 @@ print(mi_libro)
 
 ## 6 Variables string
 
-
+### 6.1 Obtener todos lo metodos para una variable
+```python
+print(dir(myStr))
+```
+### 6.2 Convertir todo el texto a mayusculas
+```python
+print(myStr.upper())
+```
+### 6.3 Convertir todo el texto a minusculas
+```python
+print(myStr.lower())
+```
+### 6.4 Cambiar minusculas por mayusculas y mayusculas por minusculas
+```python
+print(myStr.swapcase())
+```
+### 6.5 Convertir la primera letra del string en mayuscula
+```python
+print(myStr.capitalize())
+```
+### 6.6 Remplazar un texto
+```python
+print(myStr.replace("Hola","Bye"))
+```
+### 6.7 Metodos encadenados
+```python
+print(myStr.replace("Hola","Bye").upper())
+```
+### 6.8 Contar caracteres
+```python
+print(myStr.count("l"))
+```
+### 6.9 Determina verdadero o falso si el string inicia con determinados caracteres
+```python
+print(myStr.startswith("Hola"))
+```
+### 6.10 Determina verdadero o falso si el string termina con determinados caracteres
+```python
+print(myStr.endswith("c++"))
+```
+### 6.11 Dividir el string separados por un caracter
+```python
+print(myStr.split(" "))
+```
+### 6.12 Encontrar la posicion de un caracter en el string
+```python
+print(myStr.find("H"))
+```
+### 6.13 Tamaño del string
+```python
+print(len(myStr))
+```
+### 6.14 Mostrar el indice de un caracter dentro de un string
+```python
+print(myStr.index("e"))
+```
+### 6.15 Si el estring es alfanumerico o si es numerico
+```python
+print(myStr.isalnum())
+print(myStr.isalpha())
+```
+### 6.16 Imprimir un caracter mediante su indice
+```python
+print(myStr[6])
+```
+### 6.17 Imprimir un caracter mediante su indice inverso
+* El ultimo caracter tiene el valor de -1
+```python
+print(myStr[-1])
+```
 
 ***programas elaborados***
 
 [strings](programas/strings.py)
+
+---
+
+## 7 Variables numericas
+
+[strings](programas/numbers.py)
 
