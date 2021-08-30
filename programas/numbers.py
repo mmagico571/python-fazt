@@ -1,43 +1,43 @@
 # Numbers
 # ->01:27:00
 
-# Numeros enteros
+# 1 Numeros enteros
 entero = 100
 print(type(entero))
 print(entero)
 
-# Numeros flotantes
+# 2 Numeros flotantes
 flotante = 3.14
 print(type(flotante))
 print(flotante)
 
-# Operaciones aritmeticas
-    # Suma
+# 3 Operaciones aritmeticas
+    # 1 Suma
 print(7+2)
-    # Resta
+    # 2 Resta
 print(7-2)
-    # Multiplicacion
+    # 3 Multiplicacion
 print(7*2)
-    # Division
+    # 4 Division
 print(7/2)
-    # Modulo
+    # 5 Modulo
 print(7%2)
-    # Division entera
+    # 6 Division entera
 print(7//2)
-    # Potencia de un numero
+    # 7 Potencia de un numero
 print(2**3)
 
-# Precedencia de operadores
+# 4 Precedencia de operadores
     # parentesis
     # potencia
     # multiplicaciones, diviciones
     # sumas y restas
 
-# Entrada de datos en python
+# 5 Entrada de datos en python
 numero = input("Ingrese un numero: ")
 print(numero)
 
-# Convertir string a enteros o flotantes
+# 6 Convertir string a enteros o flotantes
 print(type(numero))
 suma = int(numero) + 5
 print(suma)
