@@ -488,6 +488,7 @@ print(lista1.count(3.14))
 ---
 
 ## 9 Tuplas
+* Conjunto de datos inmutables
 
 ### 1 Definicion de tuplas
 ```python
@@ -545,5 +546,66 @@ localizaciones = {
 ***programas elaborados***
 [tuples](programas/tuples.py)
 
+---
+
+## 10 set
+
+* Coleccion desordenada de datos que no tiene un indice
+
+### 1 Declaracion de una variable tipo set
+```python
+colors = {"Rojo","Verde","Azul"}
+print(colors)
+print(type(colors))
+```
+
+### 2 Metodos para set
+```python
+print(dir(colors))
+```
+
+### 3 Saber si un elemento se encuentra dentro de set
+```python
+print("Rojo" in colors)
+print("Negro" in colors)
+```
+
+### 4 Agregar elementos a set
+```python
+colors.add("Blanco")
+print(colors)
+```
+
+### 5 Eliminar elementos de set
+```python
+colors.remove("Rojo")
+print(colors)
+```
+
+### 6 Limpiar todo el set
+```python
+colors.clear()
+print(colors)
+```
+
+### 7 Borrar el set
+```python
+del colors
+    # print(colors)
+```
+
+
+***programas elaborados***
+[set](programas/set.py)
+
+---
+
+## 11 dictionaries
+
+
+***programas elaborados***
+[dictionaries](programas/dictionaries.py)
+
+---
 
 

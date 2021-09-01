@@ -2,30 +2,30 @@
     # ->02:07:00
     # Coleccion desordenada que no tiene un indice
 
-# Declaracion de una variable tipo set
+# 1 Declaracion de una variable tipo set
 colors = {"Rojo","Verde","Azul"}
 print(colors)
 print(type(colors))
 
-# Metodos para set
+# 2 Metodos para set
 print(dir(colors))
 
-# Saber si un elemento se encuentra dentro de set
+# 3 Saber si un elemento se encuentra dentro de set
 print("Rojo" in colors)
 print("Negro" in colors)
 
-# Agregar elementos a set
+# 4 Agregar elementos a set
 colors.add("Blanco")
 print(colors)
 
-# Eliminar elementos de set
+# 5 Eliminar elementos de set
 colors.remove("Rojo")
 print(colors)
 
-# Limpiar todo el set
+# 6 Limpiar todo el set
 colors.clear()
 print(colors)
 
-# Borrar el set
+# 7 Borrar el set
 del colors
     # print(colors)
