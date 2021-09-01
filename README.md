@@ -338,6 +338,7 @@ numero2 = float(input("Ingresa otro numero: "))
 print(type(numero2))
 print(numero2)
 ```
+***programas elaborados***
 
 [numbers](programas/numbers.py)
 
@@ -480,5 +481,69 @@ print(lista1)
 print(lista1.count(3.14))
 ```
 
+***programas elaborados***
+
 [list](programas/list.py)
+
+---
+
+## Tuplas
+
+### 1 Definicion de tuplas
+```python
+tupla1 = (1,2,3)
+print(tupla1)
+print(type(tupla1))
+```
+
+### 2 Constructores de tuplas
+* Solo se les puede pasar por argumento una lista o una tupla
+```python
+tupla2 = tuple(("a","b","c"))
+print(tupla2)
+tupla3 = tuple(["x","y","z"])
+print(tupla3)
+```
+
+### 3 Ver todos los metodos de una tupla
+```python
+print(dir(tupla1))
+```
+
+### 4 Considerar una tupla de un solo elemento
+* Solo se debe colocar una coma al final del unico elemento
+```python
+tupla4 = (1)
+print(tupla4)
+print(type(tupla4))
+
+tupla5 = (1,)
+print(tupla5)
+print(type(tupla5))
+```
+
+### 5 Imprimir un elemento de la tupla mediante su indice
+```python
+print(tupla3)
+print(tupla3[2])
+```
+
+### 6 Eliminar toda la tupla
+```python
+del tupla3
+    # print(tupla3)
+```
+
+### 7 Localizaciones ejemplo de uso de tuplas
+```python
+localizaciones = {
+    (123, 456):"Tokio",
+    (987, 765):"Mexico"
+}
+```
+
+***programas elaborados***
+[tuples](programas/tuples.py)
+
+
 
