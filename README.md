@@ -544,6 +544,7 @@ localizaciones = {
 ```
 
 ***programas elaborados***
+
 [tuples](programas/tuples.py)
 
 ---
@@ -596,6 +597,7 @@ del colors
 
 
 ***programas elaborados***
+
 [set](programas/set.py)
 
 ---
@@ -604,6 +606,7 @@ del colors
 
 
 ***programas elaborados***
+
 [dictionaries](programas/dictionaries.py)
 
 ---
