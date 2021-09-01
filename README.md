@@ -344,7 +344,7 @@ print(numero2)
 
 ---
 
-## Listas
+## 8 Listas
 
 ### 1 Declaracion de listas
 ```python
@@ -487,7 +487,7 @@ print(lista1.count(3.14))
 
 ---
 
-## Tuplas
+## 9 Tuplas
 
 ### 1 Definicion de tuplas
 ```python
