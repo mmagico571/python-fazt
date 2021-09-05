@@ -675,6 +675,14 @@ print(producto2)
 ---
 
 ## 12 Condicionales
+
+
+***programas elaborados***
+
+[condicionales](programas/condicionales.py)
+
+---
+
 ## 13 Loops
 ## 14 Funciones
 ## 15 Modulos
