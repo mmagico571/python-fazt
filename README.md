@@ -611,4 +611,9 @@ del colors
 
 ---
 
+## 12 Condicionales
+## 13 Loops
+## 14 Funciones
+## 15 Modulos
+
 
