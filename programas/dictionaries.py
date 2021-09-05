@@ -1,7 +1,7 @@
 # dictionaries
     # ->02:11:50
 
-# Declaracion de diccionarios
+# 1 Declaracion de diccionarios
 producto = {
     "name": "libro",
     "cantidad":100,

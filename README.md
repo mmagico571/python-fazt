@@ -604,6 +604,69 @@ del colors
 
 ## 11 dictionaries
 
+### 1 Declaracion de diccionarios
+```python
+producto = {
+    "name": "libro",
+    "cantidad":100,
+    "precio": 3
+    }
+
+persona = {
+    "nombre": "Ryan",
+    "apellido": "Ray",
+    "cuenta": 407068399
+}
+
+print(type(producto))
+print(type(persona))
+
+print(producto)
+print(persona)
+```
+
+### 2 Metodos para los diccionarios
+```python
+print(dir(producto))
+```
+
+### 3 Imprimir las llaves del diccionario
+```python
+print(producto.keys())
+```
+
+### 4 obtener los items
+```python
+print(producto.items())
+```
+
+### 5 Limpiar un diccionario
+```python
+producto.clear()
+print(producto)
+```
+
+### 6 Elimanr diccionarios
+```python
+del producto
+print(producto)
+```
+
+### 7 anidar diccionarios dentro de una lista
+```python
+producto2 = [
+    {"id": 1,
+    "nombre":"p1",
+    "existencias": 1500},
+    {"id": 2,
+    "nombre":"p2",
+    "existencias": 500},
+    {"id": 3,
+    "nombre":"p3",
+    "existencias": 1000}
+]
+print(producto2)
+```
 
 ***programas elaborados***
 
