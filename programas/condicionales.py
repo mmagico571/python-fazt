@@ -1,12 +1,12 @@
 # Condicionales
     #->02:19:50
 
-# Operadores de comparacion
+# 1 Operadores de comparacion
     # mayor que >
     # menor que <
     # igual que ==
 
-# Estructura if
+# 2 Estructura if
 edad = 20
 if edad > 30:
     print("mayor que treinta")
@@ -20,7 +20,7 @@ if color == "blue":
 else:
     print("Otro color")
 
-# Estructura elif
+# 3 Estructura elif
 
 if color == "blue":
     print('blue')
@@ -29,7 +29,7 @@ elif color == "red":
 else:
     print("Otro color")
 
-# Anidacion if
+# 4 Anidacion if
 name = "juan"
 apellido = "lopez"
 
@@ -41,7 +41,25 @@ if name == "juan":
 else:
     print("tu no eres juan")
 
-# Operadores logicos
+# 5 Operadores logicos
     # and
     # or
     # not
+
+# 6 estructura if y operadores logicos
+x = 20
+y = 20
+if x >= 1 and x <= 10:
+    print("ok")
+else:
+    print("Fuera de rango")
+
+if(x>15 or y>15):
+    print("hay uno mayor a 15")
+else:
+    print("todos son menores de 15")
+
+if(not(x==y)):
+    print("Son diferentes")
+else:
+    print("son iguales")
