@@ -676,6 +676,78 @@ print(producto2)
 
 ## 12 Condicionales
 
+### 1 Operadores de comparacion
+    
+* mayor que >
+* menor que <
+* igual que ==
+* menor igual <=
+* mayor igual >=
+
+### 2 Estructura if
+```python
+edad = 20
+if edad > 30:
+    print("mayor que treinta")
+else:
+    print("Menor que treinta")
+
+color = "red"
+
+if color == "blue":
+    print("blue")
+else:
+    print("Otro color")
+```
+
+### 3 Estructura elif
+```python
+if color == "blue":
+    print('blue')
+elif color == "red":
+    print("red")
+else:
+    print("Otro color")
+```
+
+### 4 Anidacion if
+```python
+name = "juan"
+apellido = "lopez"
+
+if name == "juan":
+    if apellido == "hernandez":
+        print("Tu eres juan hernandez")
+    else:
+        print("Tu NO eres juan hernandez")
+else:
+    print("tu no eres juan")
+```
+
+### 5 Operadores logicos
+* and
+* or
+* not
+
+### 6 estructura if y operadores logicos
+```python
+x = 20
+y = 20
+if x >= 1 and x <= 10:
+    print("ok")
+else:
+    print("Fuera de rango")
+
+if(x>15 or y>15):
+    print("hay uno mayor a 15")
+else:
+    print("todos son menores de 15")
+
+if(not(x==y)):
+    print("Son diferentes")
+else:
+    print("son iguales")
+```
 
 ***programas elaborados***
 
@@ -684,7 +756,29 @@ print(producto2)
 ---
 
 ## 13 Loops
+
+***programas elaborados***
+
+[loops](programas/loops.py)
+
+---
+
 ## 14 Funciones
+
+
+***programas elaborados***
+
+[funciones](programas/funciones.py)
+
+---
+
 ## 15 Modulos
+
+
+***programas elaborados***
+
+[modulos](programas/modulos.py)
+
+---
 
 
